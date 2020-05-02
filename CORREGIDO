@@ -242,9 +242,8 @@ INSERT INTO EMPLEADO_PROYECTO VALUES (0004, 1919);
 INSERT INTO EMPLEADO_PROYECTO VALUES (0005, 2020);
 INSERT INTO EMPLEADO_PROYECTO VALUES (0006, 2121);
 
+/*SELECTS*/
 
-
-/*SCRIPT DE INGRESO DE DATOS*/
 select * from proyecto;
 select * from departamento;
 select * from empleado;
@@ -252,7 +251,9 @@ select * from cliente;
 select * from pedido;
 select * from pago_nomina;
 select * from producto;
-SELECT * FROM PEDIDO;
 SELECT * FROM EMPLEADO_PROYECTO;
 SELECT * FROM PEDIDO_PRODUCTO;
 SELECT * FROM PAGO_PEDIDO;
+select * from TIPO_CLIENTE;
+select * from ESTADO_CLIENTE;
+select * from TIPO_PRODUCTO;
